@@ -15,7 +15,7 @@ class Router
         ];
     }
 
-    public function route()
+    public function matchRoute()
     {
         // Récupère le paramètre 'page' depuis l'URL, par exemple
         $page = isset($_GET['page']) ? $_GET['page'] : 'accueil';
@@ -31,5 +31,5 @@ class Router
 
 // Instanciez la classe Router et appelez la méthode route
 $router = new Router();
-$router->route();
+$router->matchRoute();
 ?>
