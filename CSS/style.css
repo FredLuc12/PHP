@@ -1,0 +1,115 @@
+@import url(bootstrap.css);
+.badge.rouge{
+    box-sizing: content-box;
+    background-color: RGBA(25, 135, 84, var(--bs-bg-opacity, 1)) !important; 
+}
+.delete{
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 8px;
+    font-size: 1.5rem;
+}
+.delete:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* ************* slide horizontal ********************* */
+.carde.swiper-slide{
+    width: 380px;
+    height: 326px;
+    border-radius: 25px;
+    background-color: rgb(0, 68, 255);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carde.swiper-slide .card-content .img_box{
+  max-width: 360px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 8px solid rgba(255, 255, 255, 0.40);
+  margin: auto;
+}
+.carde.swiper-slide .card-content .img_box img{
+  width: 100%;
+}
+.slide-content{
+  margin: 40px;
+}
+.card-content{
+    padding: 10px 14px;
+}
+.slide-container{
+    max-width: 1120px;
+    padding: 40px 0;
+}
+
+/* ************************************** Slide carte ******************* */
+.cards.swiper {
+    width: 240px;
+    height: 320px;
+    box-sizing: border-box;
+  }
+
+  .cards.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .cards.swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .cards.swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .cards.swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  .cards.swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+
+  .cards.swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+
+  .cards.swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+
+  .cards.swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+
+  .cards.swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+
+  .cards.swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+
+  .cards.swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+
+@media (max-width: 768px) {
+    .row.wrap{
+        flex-direction: column;
+    }
+}
+
+
+
