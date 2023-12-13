@@ -1,0 +1,16 @@
+{
+    "name": "houeffa/php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Houeffa\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fred ABLEFONLIN",
+            "email": "Fred.Ablefonlin@etu.univ-paris1.fr"
+        }
+    ],
+    "require": {}
+}
