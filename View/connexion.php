@@ -175,7 +175,7 @@
                             <div class="my-3 text-center">
                                 <input type="submit" name="submit" class="btn btn-warning btn-lg btn-block" value="Connexion">
                             </div>
-                            <div class="text-center mt-4 font-weight-light"> Vous n'avez pas de compte ? <a href="inscription.php" class="text-danger">Inscrivez-vous</a> <!-- redirection vers la page inscription -->
+                            <div class="text-center mt-4 font-weight-light"> Vous n'avez pas de compte ? <a href="index.php" class="text-danger">Inscrivez-vous</a> <!-- redirection vers la page inscription -->
                             </div>
                         </form>
                     </div>

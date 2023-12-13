@@ -119,23 +119,23 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Téléphone</label>
-                                        <input type="text" name="tel" class="form-control form-control-lg border-left-0" placeholder="Téléphone">
+                                        <input type="text" name="telephone" class="form-control form-control-lg border-left-0" placeholder="Téléphone">
                                     </div>
                                     <div class="form-group">
                                         <label>Numéro de voie</label>
-                                        <input type="text" name="numRue" class="form-control form-control-lg border-left-0" placeholder="Numéro de voie">
+                                        <input type="text" name="numVoie" class="form-control form-control-lg border-left-0" placeholder="Numéro de voie">
                                     </div>
                                     <div class="form-group">
                                         <label>Adresse</label>
-                                        <input type="text" name="nomRue" class="form-control form-control-lg border-left-0" placeholder="Adresse">
+                                        <input type="text" name="adresse" class="form-control form-control-lg border-left-0" placeholder="Adresse">
                                     </div>
                                     <div class="form-group">
                                         <label>Code postal</label>
-                                        <input type="text" name="cp" class="form-control form-control-lg border-left-0" placeholder="Code postal">
+                                        <input type="text" name="codePostal" class="form-control form-control-lg border-left-0" placeholder="Code postal">
                                     </div>
                                     <div class="form-group">
                                         <label>Ville</label>
-                                        <input type="text" name="nomVille" class="form-control form-control-lg border-left-0" placeholder="Ville">
+                                        <input type="text" name="ville" class="form-control form-control-lg border-left-0" placeholder="Ville">
                                     </div>
                                     <div class="form-group">
                                         <label>Mot de passe</label>
@@ -151,7 +151,7 @@
 
                             </form>
                         </div>
-                    <div class="text-center mt-4 font-weight-light"> Vous avez déjà un compte ? <a href="connexion.php" class="text-danger">Connexion</a>
+                    <div class="text-center mt-4 font-weight-light"> Vous avez déjà un compte ? <a href="index.php" class="text-danger">Connexion</a>
                     </div>
                     </div>
                 </div>
